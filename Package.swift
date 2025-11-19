@@ -17,7 +17,7 @@ let package = Package(
         .target(
             name: "FastagSdkIos",
             dependencies: [
-                "App",
+                "fastagiosapp",
                 "fastagwrapperios",
             ],
             path: "Sources/FastagSdkIos"
@@ -27,7 +27,7 @@ let package = Package(
             path: "./fastagwrapperios.xcframework"
         ),        
         .binaryTarget(
-            name: "App",
+            name: "fastagiosapp",
             path: "./App.xcframework"
         ),
         
