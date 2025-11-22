@@ -28,7 +28,7 @@ let package = Package(
         ),        
         .binaryTarget(
             name: "fastagiosapp",
-            path: "./App.xcframework"
+            path: "./FastagIos.xcframework"
         ),
         
     ]
