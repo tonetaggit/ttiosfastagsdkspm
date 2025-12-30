@@ -11,5 +11,6 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers final public class FastagSdk {
   public static func openFastag(from rootViewController: UIKit.UIViewController, userId: Swift.String, vrn: Swift.String, vehicleVariant: Swift.String, theme: Swift.String, vin: Swift.String, userName: Swift.String, carImageUrl: Swift.String, pplName: Swift.String)
+  public static func ValidateVRNformat(vrn: Swift.String) -> Swift.Bool
   @objc deinit
 }

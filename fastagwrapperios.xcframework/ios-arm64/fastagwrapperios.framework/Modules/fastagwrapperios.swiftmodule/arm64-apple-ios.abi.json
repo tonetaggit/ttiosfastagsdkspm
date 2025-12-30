@@ -6,6 +6,23 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "fastagwrapperios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "fastagwrapperios"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -105,6 +122,35 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ValidateVRNformat",
+            "printedName": "ValidateVRNformat(vrn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16fastagwrapperios9FastagSdkC17ValidateVRNformat3vrnSbSS_tFZ",
+            "mangledName": "$s16fastagwrapperios9FastagSdkC17ValidateVRNformat3vrnSbSS_tFZ",
+            "moduleName": "fastagwrapperios",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -143,28 +189,25 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "fastagwrapperios",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Network",
-        "printedName": "Network",
-        "declKind": "Import",
-        "moduleName": "fastagwrapperios"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/network.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 16,
+      "value": "\"NetworkMonitor\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/network.swift",
+      "kind": "BooleanLiteral",
+      "offset": 354,
+      "length": 5,
+      "value": "false"
+    },
     {
       "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/fastagwrapperios.swift",
       "kind": "BooleanLiteral",
@@ -185,20 +228,6 @@
       "offset": 219,
       "length": 107,
       "value": "[\"phonepe:\/\/\", \"gpay:\/\/\", \"paytm:\/\/\", \"bhim:\/\/\", \"upi:\/\/pay\"]"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/network.swift",
-      "kind": "StringLiteral",
-      "offset": 288,
-      "length": 16,
-      "value": "\"NetworkMonitor\""
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/network.swift",
-      "kind": "BooleanLiteral",
-      "offset": 354,
-      "length": 5,
-      "value": "false"
     }
   ]
 }
