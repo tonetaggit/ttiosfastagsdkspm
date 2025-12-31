@@ -29,4 +29,10 @@ public final class FastagSdkIos {
         pplName:pplName
        )
    }
+
+    /// validate VRN Format
+      public static func ValidateVRNformat(vrn: String) -> Bool {
+        return FastagSdk.ValidateVRNformat(vrn: vrn)
+    }
+
 }
