@@ -31,7 +31,7 @@ public final class FastagSdkIos {
    }
 
     /// validate VRN Format
-    public static func ValidateVRNformat(vrn: String, userId: String) async -> Bool {
+    public static func ValidateVRN(vrn: String, userId: String) async -> Bool {
         return await FastagSdk.ValidateVRN( userId:userId,vrn: vrn)
     }
 
