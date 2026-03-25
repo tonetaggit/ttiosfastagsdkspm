@@ -16,16 +16,6 @@
       },
       {
         "kind": "Import",
-        "name": "Network",
-        "printedName": "Network",
-        "declKind": "Import",
-        "moduleName": "fastagwrapperios",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -244,6 +234,16 @@
       },
       {
         "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "fastagwrapperios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -315,18 +315,11 @@
       "value": "\"StNdYpejpMHj2NkxY0UiAyBvRzdPQKA0PjvIjy2xbGD36CHJbr6z\/OWXh59CGiCkVNC2EPkbsUPveOy6j22SXNmdZH8biu26mm3bIBj5\/HvqMTfQ8IdeDrKSQ0eEjzaIaOb9kkBX+YYNSxz3o93IY3pzaQyS2WLicNTAysvRgt5q6zDRRqnJiqK43T\/8ejPBOsOe8cEwxoMvX\/MwZmL+dluK+Ubsxr5XM1ruALYaJZ8RBhEeGoOEGx3opEPizBmuSriR65dHoqrhBxJ9l66uIrQxoZmdl35kASCNu1gcBOwSctAKox1ICqxkFAwJ4KGEtACJqQw57ueSz9FL9I0Kmw==\""
     },
     {
-      "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/network.swift",
+      "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/FastagServiceHelper.swift",
       "kind": "StringLiteral",
-      "offset": 290,
-      "length": 16,
-      "value": "\"NetworkMonitor\""
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/network.swift",
-      "kind": "BooleanLiteral",
-      "offset": 356,
-      "length": 5,
-      "value": "false"
+      "offset": 552,
+      "length": 7,
+      "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/fastagwrapperios.swift",
@@ -341,6 +334,20 @@
       "offset": 741,
       "length": 6,
       "value": "\"main\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/network.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 16,
+      "value": "\"NetworkMonitor\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/network.swift",
+      "kind": "BooleanLiteral",
+      "offset": 356,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/ToneTagProjects\/fastagwrapperios\/fastagwrapperios\/upi_utility.swift",
